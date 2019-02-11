@@ -1,0 +1,18 @@
+<svg width="580" height="406" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="408" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#fff" stroke="#000" stroke-width="7" x="11.5" y="11" width="558" height="375" id="svg_1"/>
+  <rect stroke="null" fill="none" y="15" x="143" height="261.515697" width="299.066669" id="PapyrusLabel"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="289.5" x2="570.5" y1="297.5" x1="14.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="281.5" x2="565.507952" y1="281.5" x1="12.5" stroke-opacity="null" stroke-width="7" fill="none"/>
+  <rect id="svg_8" height="62" width="84" y="78.5" x="62.5" stroke-opacity="null" stroke-width="NaN" stroke="null" fill="#ffffff"/>
+  <rect stroke="#000" fill="#fff" stroke-width="7" x="37.5" y="317" width="64" height="43.010753" id="svg_10"/>
+  <rect stroke="#000" fill="#fff" stroke-width="7" x="37.5" y="304" width="19" height="12.768817" id="svg_11"/>
+ </g>
+</svg>

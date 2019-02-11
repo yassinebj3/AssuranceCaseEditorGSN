@@ -1,0 +1,19 @@
+<svg width="580" height="390" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="392" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="289.5" x2="570.5" y1="297.5" x1="14.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="none"/>
+  <rect stroke="null" fill="none" y="120" x="18.554421" height="153.687834" width="520.97036" id="svg_41"/>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <path id="svg_70" d="m103.330065,32.693704l355.236971,0l0,0c46.537054,0 84.2627,75.801324 84.2627,169.306951c0,93.505593 -37.725663,169.306884 -84.2627,169.306884l-355.236971,0l0,0c-46.537001,0 -84.2627,-75.801291 -84.2627,-169.306884c0,-93.505659 37.725698,-169.306951 84.2627,-169.306951z" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+  <rect stroke="null" fill="none" y="48.712878" x="77.960374" height="200.169173" width="413.049521" id="PapyrusLabel"/>
+  <rect id="svg_67" height="49.504946" width="73.267319" y="306.930698" x="91.485136" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+  <rect id="svg_68" height="13.861385" width="23.762374" y="292.079215" x="91.485137" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_74" y2="259.405952" x2="534.175201" y1="259.405952" x1="22.178215" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="none"/>
+ </g>
+</svg>

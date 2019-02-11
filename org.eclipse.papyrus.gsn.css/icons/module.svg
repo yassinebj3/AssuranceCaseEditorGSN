@@ -1,0 +1,16 @@
+<svg width="580" height="551" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="553" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="382" width="558" y="116" x="17.5" stroke-width="7" stroke="#000" fill="#fff"/>
+  <rect id="PapyrusLabel" width="418.000004" height="365.515698" x="84" y="123" fill="none" stroke="null"/>
+  <line fill="none" stroke="null" stroke-width="null" stroke-opacity="null" fill-opacity="null" x1="14.5" y1="297.5" x2="570.5" y2="289.5" id="svg_5" stroke-linejoin="null" stroke-linecap="null"/>
+  <rect id="svg_12" height="95.842297" width="207.999998" y="20" x="17.5" stroke-width="7" fill="#fff" stroke="#000"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_7" y="535" x="54.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Module</text>
+ </g>
+</svg>

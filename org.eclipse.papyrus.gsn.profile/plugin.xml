@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated gsn -->
+      <package
+            uri="http://papyrus/gsn"
+            class="gsn.gsn.GSNPackage"
+            genModel="model/gsn.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated gsn -->
+      <package
+            uri="http:///gsn/Core.ecore"
+            class="gsn.gsn.Core.CorePackage"
+            genModel="model/gsn.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated gsn -->
+      <package
+            uri="http:///gsn/Associations.ecore"
+            class="gsn.gsn.Associations.AssociationsPackage"
+            genModel="model/gsn.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated gsn -->
+      <package
+            uri="http:///gsn/ModularExtensions.ecore"
+            class="gsn.gsn.ModularExtensions.ModularExtensionsPackage"
+            genModel="model/gsn.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://GSN_PROFILE/"
+            target="platform:/plugin/org.eclipse.papyrus.gsn.profile/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="A profile for the GSN language"
+            iconpath="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/GSN.png"
+            name="GSN"
+            path="pathmap://GSN_PROFILE/gsn.profile.uml"
+            provider="CEA LIST"
+            qualifiednames="GSN">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://GSN_PROFILE/gsn.profile.uml#_BIisEP-BEei05-E1afbsSA"
+            uri="http://papyrus/gsn">
+      </profile>
+   </extension>
+
+</plugin>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+ 
+ 	<!-- add a "transformation" to the new model wizard -->
+ 
+	<!-- add "template" to the new model wizard --> 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated patterns -->
+      <package
+            uri="http:///pattern/HighLevelVehicleSafetyArgument.ecore"
+            class="org.HighLevelVehicleSafetyArgument.HighLevelVehicleSafetyArgumentPackage"
+            genModel="resources/patterns.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated patterns -->
+      <package
+            uri="http:///pattern/InstantiationoftheRiskManagement.ecore"
+            class="org.InstantiationoftheRiskManagement.InstantiationoftheRiskManagementPackage"
+            genModel="resources/patterns.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated patterns -->
+      <package
+            uri="http:///pattern/PredefinedSafetyRequirements.ecore"
+            class="org.PredefinedSafetyRequirements.PredefinedSafetyRequirementsPackage"
+            genModel="resources/patterns.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated patterns -->
+      <package
+            uri="http:///pattern/RiskReductionthroughFunctionalityRestriction.ecore"
+            class="org.RiskReductionthroughFunctionalityRestriction.RiskReductionthroughFunctionalityRestrictionPackage"
+            genModel="resources/patterns.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://GSN_PATTERNS/"
+            target="platform:/plugin/org.eclipse.papyrus.gsn.pattern/resources/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+      <library
+            description="Pattern for GSN langage"
+            iconpath="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/GSN.png"
+            name="GSNPatterns"
+            path="pathmap://GSN_PATTERNS/org.eclipse.papyrus.patterns.uml">
+      </library>
+   </extension>
+</plugin>

@@ -1,0 +1,222 @@
+
+[appliedStereotypes~=Strategy] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/strategy.svg';
+}
+
+[appliedStereotypes~=Solution] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/solution.svg';
+}
+
+[appliedStereotypes~=Goal] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/goal.svg';
+}
+
+[appliedStereotypes~=Context] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/context.svg';
+}
+
+[appliedStereotypes~=Assuption] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/assumption.svg';
+}
+
+
+[appliedStereotypes~=Justification] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/justification.svg';
+}
+
+[appliedStereotypes~=AwayGoal] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/awaygoal.svg';
+}
+
+[appliedStereotypes~=AwaySolution] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/awaysolution.svg';
+}
+
+[appliedStereotypes~=AwayContext] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/awaycontext.svg';
+}
+
+[appliedStereotypes~=ModuleReference] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/modulereference.svg';
+}
+
+[appliedStereotypes~=ContractModuleReference] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/contractmodulereference.svg';
+}
+
+[appliedStereotypes~=InContextOf] {
+	lineStyle: solid ; 
+}
+
+[appliedStereotypes~=N-aryInContextOf] {
+	lineStyle: solid ; 
+}
+
+Package > Compartment{
+	visible: true;
+}
+
+Package > Compartment[type=StereotypeBrace]{
+	visible:false;
+}
+
+Package > Label[type=StereotypeLabel] {
+	visible: true;
+}
+
+Package > Compartment[kind=symbol] {
+	visible: false;
+	
+}
+
+
+
+Package > Compartement[type=StereotypeCompartment] {
+	visible: false;
+}
+
+
+
+
+Package {
+	fillcolor: white ;
+	followSVGSymbol : false ;
+	isFloatingLabelConstrained:false;
+	maintainSymbolRatio: false ;
+	displayBorder: true;
+	elementIcon: false;
+	isFloatingLabelConstrained:false;
+	displayName : true ;
+	
+}
+
+Class > Compartment {
+	visible: false;
+}
+
+Class > Compartment[type=StereotypeCompartment] {
+	visible:true;
+	followSVGSymbol: true ;
+}
+
+Class > Compartment[type=StereotypeCompartment]>[property="Undeveloped"] {
+	
+	visible:false;
+	
+}
+
+Class > Compartment[type=StereotypeCompartment]>[property="Uninstantiated"] {
+	
+	visible:false;
+	
+}
+
+Class[appliedStereotypes~=Solution][Uninstantiated=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/u-solution.svg';
+}
+
+Class[appliedStereotypes~=Solution][Undeveloped=true]{
+		svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/i-solution.svg'
+}
+
+
+Class[appliedStereotypes~=Solution][Uninstantiated=true][Undeveloped=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/solution.svg';
+}
+
+
+Class[appliedStereotypes~=Context][Uninstantiated=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/u-context.svg';
+}
+
+Class[appliedStereotypes~=Context][Undeveloped=true]{
+		svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/i-context.svg'
+}
+
+
+Class[appliedStereotypes~=Context][Uninstantiated=true][Undeveloped=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/context.svg';
+}
+
+
+
+Class[appliedStereotypes~=Strategy][Uninstantiated=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/u-strategy.svg';
+}
+
+Class[appliedStereotypes~=Strategy][Undeveloped=true]{
+		svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/i-strategy.svg'
+}
+
+
+Class[appliedStereotypes~=Strategy][Uninstantiated=true][Undeveloped=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/ui-strategy.svg';
+}
+
+
+Class[appliedStereotypes~=Justification][Uninstantiated=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/u-justification.svg';
+}
+
+Class[appliedStereotypes~=Justification][Undeveloped=true]{
+		svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/i-justification.svg'
+}
+
+
+Class[appliedStereotypes~=Justification][Uninstantiated=true][Undeveloped=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/justification.svg';
+}
+
+
+Class[appliedStereotypes~=Assuption][Uninstantiated=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/u-assumption.svg';
+}
+
+Class[appliedStereotypes~=Assuption][Undeveloped=true]{
+		svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/i-assumption.svg'
+}
+
+
+Class[appliedStereotypes~=Assuption][Uninstantiated=true][Undeveloped=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/assumption.svg';
+}
+
+
+
+Class[appliedStereotypes~=Goal][Uninstantiated=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/u-goal.svg';
+}
+
+Class[appliedStereotypes~=Goal][Undeveloped=true]{
+		svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/i-goal.svg'
+}
+
+
+Class[appliedStereotypes~=Goal][Uninstantiated=true][Undeveloped=true]{
+    	svgFile: 'platform:/plugin/org.eclipse.papyrus.gsn.css/icons/ui-goal.svg';
+}
+
+
+
+
+Class > Compartment[kind=symbol] {
+	visible: true;
+	showTitle: false;
+}
+
+Label[type=StereotypeLabel] {
+	visible : false;
+}
+
+Class {
+	fillcolor: white ;
+	followSVGSymbol : true ;
+	isFloatingLabelConstrained:false;
+	maintainSymbolRatio: false ;
+	displayBorder: false;
+	elementIcon: false;
+	isFloatingLabelConstrained:false;
+	displayName : false ;
+	displayBorder:false ;
+}
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:filters="http://www.eclipse.org/Papyrus/2014/common/filters" xmlns:umlfilters="http://www.eclipse.org/Papyrus/2014/uml/filters" xmi:id="org.eclipse.papyrus.training.library.menu" label="Menu GSN" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/GSN.png">
+  <filter xsi:type="filters:CompoundFilter" name="test" filter="//@filter/@ownedFilter.0">
+    <ownedFilter xsi:type="umlfilters:ProfileApplied" name="isProfileApplied" profileQualifiedName="gsn" profileURI="pathmap://GSN_PROFILE/gsn.profile.uml#_BIisEP-BEei05-E1afbsSA"/>
+  </filter>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="CoreElements" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/goal.png">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Goal" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/goal.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.Goal"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Justification" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/justification.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_kjNv4AVeEemDvfxrsSxpKw"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Assuption" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/assumption.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_YZ65QAVSEemDvfxrsSxpKw"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Context" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/context.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_0VC60AVnEemDvfxrsSxpKw"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Solution" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/solution.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_03Z2cAVmEemDvfxrsSxpKw"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Strategy" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/strategy.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_D0dEkAVnEemDvfxrsSxpKw"/>
+    </menu>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="Package" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/Module.png">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="ModuleContract" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/contract.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_M7-5MByyEemzaI2hV4mSjg"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Module" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/Package.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_hJNfIBzAEemzaI2hV4mSjg"/>
+    </menu>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" label="ModularExtensions" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/contractmodulereference.png">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="AwayGoal" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/awaygoal.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_3GG3UArEEemfu98Z5K427g"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="AwaySolution" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/awaysolution.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_-PtlAArJEemfu98Z5K427g"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="AwayContext" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/awaycontext.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_20raAArNEemfu98Z5K427g"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="ModuleReference" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/Module.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_7SloYArQEemfu98Z5K427g"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="ContractModuleReference" icon="platform:/plugin/org.eclipse.papyrus.gsn.profile/icons/contractmodulereference.png">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#_gap5oArxEemfu98Z5K427g"/>
+    </menu>
+  </menu>
+</ElementCreationMenuModel:Folder>

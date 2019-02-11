@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Associations" link_to="toc.xml#associations"> 
+	<topic label="Constraints"  href="html/associations/contraints.html"> 
+	</topic>
+	<topic href="html/associations/nary.html" label="Using N-ary associations">
+	</topic> 
+</toc>

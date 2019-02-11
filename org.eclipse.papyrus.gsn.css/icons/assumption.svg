@@ -1,0 +1,14 @@
+<svg width="584" height="379" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="586" height="381" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse fill="#fff" stroke-width="7" stroke-opacity="null" fill-opacity="null" cx="289.000005" cy="205.000005" id="svg_3" rx="275.499995" ry="151.499995" stroke="#000"/>
+  <rect fill="none" y="78" x="139" height="250.089691" width="286.000005" id="PapyrusLabel"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="70" id="svg_1" y="373.5" x="498.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#000000">A</text>
+ </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="647" height="316" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="649" height="318" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_2" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#fff" stroke-width="7" d="m17.499997,249.593749l123.200004,-240.625001l492.799954,0l-123.200004,240.625001l-492.799954,0z" id="svg_1" stroke="#000"/>
+  <rect fill="none" y="57" x="140" height="147.258867" width="369.000018" id="PapyrusLabel"/>
+  <path id="svg_6" d="m218.90502,283.230005l39.499994,-29.500001l39.499994,29.500001l-39.499994,29.500001l-39.499994,-29.500001z" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+ </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="580" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="602" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" fill="none" y="120" x="74" height="365.515698" width="418.000004" id="PapyrusLabel"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="289.5" x2="570.5" y1="297.5" x1="14.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="none"/>
+  <path transform="rotate(-89.76506805419922 289.0000305175781,285.5) " id="svg_14" d="m100.9975,16.919999l147,0l0,0c81.185871,0 147,52.382681 147,116.999997c0,64.617324 -65.81413,116.999997 -147,116.999997l-147,0l0,-233.999994z" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="none"/>
+  <path stroke="#000" transform="rotate(-89.76506805419922 289.0000305175781,285.4999694824219) " id="svg_15" d="m27.502094,13.512984l261.497923,0l0,0c144.421336,0 261.497923,121.772726 261.497923,271.987006c0,150.214298 -117.076587,271.987006 -261.497923,271.987006l-261.497923,0l0,-543.974012z" fill-opacity="null" stroke-opacity="null" stroke-width="7" fill="#fff"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_17" y2="415" x2="559.455718" y1="415" x1="17.5" stroke-opacity="null" stroke-width="7" stroke="#000" fill="none"/>
+  <rect stroke="null" fill="none" y="253.66334" x="30.435609" height="153.687834" width="520.97036" id="svg_41"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_43" y2="245.693085" x2="562.426014" y1="245.693085" x1="20.470297" stroke-opacity="null" stroke-width="7" stroke="#000" fill="none"/>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <rect id="svg_67" height="49.504946" width="73.267319" y="458.415833" x="43.960391" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+  <rect id="svg_68" height="13.861385" width="23.762374" y="444.554448" x="43.960391" fill-opacity="null" stroke-opacity="null" stroke-width="7" stroke="#000" fill="#fff"/>
+ </g>
+</svg>

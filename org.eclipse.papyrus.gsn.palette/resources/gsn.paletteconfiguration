@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="librarypalettemodel" label="Library">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="org.eclipse.papyrus.training.library.node.Library" label="GSN Elements" description="GSN Elements">
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.goal" label="Goal" description="Create a Goal" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/goal.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.goal_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.goal_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.goal_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.goal_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.goal_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.goal_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.assuption" label="Assuption" description="Create an Assuption" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/assumption.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.assuption_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.assuption_metaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.assuption_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.assuption_Nested"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.assuption_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.assuption_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.justification" label="Justification" description="Create a Justification" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/justification.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.justification_Class_Shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.justification_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.justification_Nested"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.justification_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.justification_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.justification_metaclassShape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.context" label="Context" description="Create a context" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/context.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.context_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.context_metaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.context_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.context_Nested"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.context_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.context_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.solution" label="Solution" description="Create a solution" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/solution.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.solution_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.solution_metaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.solution_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.solution_Nested"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.solution_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.solution_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.strategy" label="Strategy" description="Create a strategy" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/strategy.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.strategy_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.strategy_metaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.strategy_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.strategy_Nested"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.strategy_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.strategy_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.awaygoal" label="AwayGoal" description="Create an awaygoal" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/awaygoal.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaygoal_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaygoal_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaygoal_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaygoal_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaygoal_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaygoal_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.awaysolution" label="AwaySolution" description="Create an awaysolution" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/awaysolution.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaysolution_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaysolution_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaysolution_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaysolution_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaysolution_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaysolution_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.awaycontext" label="AwayContext" description="Create an AwayContext" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/awaycontext.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaycontext_Class_Shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaycontext_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaycontext_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaycontext_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaycontext_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.awaycontext_Class"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.ModuleReference" label="ModuleReference" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/Module.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.modulereference_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.modulereference_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.modulereference_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.modulereference_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.modulereference_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.modulereference_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.ContractModuleReference" label="ContractModuleReference" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/contractmodulereference.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference_Class"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference_Class_MetaclassShape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference_Class_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference_MetaClass_Shape_CN"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference_Class_NestedClassifierLabel"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference_Class_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="org.eclipse.papyrus.training.library.node.Association" label="Associations" description="Associations">
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.OptionnalSupportedBy" label="OptionnalSupportedBy" description="OptionnalSupportedBy" kind="ConnectionTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/optionnalsupportedby.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <graphicalHints></graphicalHints>
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.OptionnalSupportedBy _edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.InContextOf" label="InContextOf" description="InContextOf" kind="ConnectionTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/supportedby.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.InContextOf _edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.SupportedBy" label="SupportedBy" description="SupportedBy" kind="ConnectionTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/incontextof.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.supportedBy_Shape"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.N-aryInContextOf" label="N-aryInContextOf" description="N-aryInContextOf" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/n-aryincontextof.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.N-aryInContextOf _edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.profile.gsn.core.N-aryInSupportedBy" label="N-aryInSupportedBy" description="N-aryInSupportedBy" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/n-arysupportedby.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.profile.gsn.N-arySupportedBy _edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.node.OptionnalInContextOf" label="OptionnalInContextOf" description="OptionnalInContextOf" kind="ConnectionTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/optionnalincontextof.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.OptionnalInContextOf_Edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="org.eclipse.papyrus.gsn.node.package" label="Packages" description="Packages">
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.node.module" label="Module" description="Module" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/Package.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.module_shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.module_shape_cn"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="org.eclipse.papyrus.gsn.node.modulecontract" label="ModuleContract" description="ModuleContract" kind="CreationTool" toolClassName="">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.gsn.profile" iconPath="/icons/contract.png"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.modulecontract_shape"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.gsn.types/resources/extlibrarydi.elementtypesconfigurations#org.eclipse.papyrus.gsn.modulecontract_shape_cn"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <requiredProfiles>gsn</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>

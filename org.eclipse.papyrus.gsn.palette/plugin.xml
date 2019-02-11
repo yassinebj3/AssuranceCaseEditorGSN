@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <!-- Register Diagramatic Element type -->
+    <extension
+          point="org.eclipse.papyrus.infra.gmfdiag.common.paletteDefinition">
+       <paletteDefinition
+             ID="GSN_Palette"
+             class="org.eclipse.papyrus.infra.gmfdiag.common.service.palette.ExtendedPluginPaletteProvider"
+             name="GSN_Palette"
+             path="resources/gsn.paletteconfiguration">
+          <Priority
+                name="Medium">
+          </Priority>
+          <editor
+                id="org.eclipse.papyrus.uml.diagram.clazz">
+          </editor>
+       </paletteDefinition>
+    </extension>
+
+</plugin>

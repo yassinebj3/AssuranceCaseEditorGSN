@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="org.eclipse.papyrus.gsn.types.profile.extlibrary.elementTypes" identifier="org.eclipse.papyrus.gsn.types.profile.extlibrary.elementTypes" name="Library ElementTypeSet" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.gsn.profile.gsn.Goal" identifier="org.eclipse.papyrus.gsn.profile.gsn.Goal" name="Goal" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coVnM9EeaEb_X9ewiatg" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Core::Goal</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_YZ65QAVSEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.Assuption" name="Assuption" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_t2RtIAVSEemDvfxrsSxpKw" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Core::Assuption</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_kjNv4AVeEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.Justification" name="Justification" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_jZQowAVfEemDvfxrsSxpKw" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Core::Justification</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_03Z2cAVmEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.Solution" name="Solution" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_ROXE8AVnEemDvfxrsSxpKw" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Core::Solution</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_D0dEkAVnEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.Strategy" name="Strategy" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_R3sV0AVnEemDvfxrsSxpKw" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Core::Strategy</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_0VC60AVnEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.Context" name="Context" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_2sFDoAVnEemDvfxrsSxpKw" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Core::Context</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_cBgKgAV_Eemzx_1-BINJ-A" identifier="org.eclipse.papyrus.gsn.profile.gsn.SupportedBy" name="SupportedBy" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_oAZlcAV_Eemzx_1-BINJ-A" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Associations::SupportedBy</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_3GG3UArEEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.AwayGoal" name="AwayGoal" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_A8K9gArFEemfu98Z5K427g" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::AwayGoal</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_-PtlAArJEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.AwaySolution" name="AwaySolution" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_-PtlAQrJEemfu98Z5K427g" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::AwaySolution</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_20raAArNEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.AwayContext" name="AwayContext" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_20raAQrNEemfu98Z5K427g" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::AwayContext</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_7SloYArQEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.ModuleReference" name="ModuleReference" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_H1UwMArREemfu98Z5K427g" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::ModuleReference</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_gap5oArxEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.ContractModuleReference" name="ContractModuleReference" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_2fRnYArxEemfu98Z5K427g" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::ContractModuleReference</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_Yvc48BnNEem06_yQdhsvYg" identifier="org.eclipse.papyrus.gsn.profile.gsn.InContextOf" name="InContextOf" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_zD_wEBpXEemQ4pS9g9X9kg" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Associations::InContextOf</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_F_8PIBp4EemWPKq2p20mUA" identifier="org.eclipse.papyrus.gsn.profile.gsn.OptionnalSupportedBy" name="OptionnalSupportedBy" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_F_8PIRp4EemWPKq2p20mUA" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Associations::OptionnalSupportedBy</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_86a-oBqDEem9P93mtbHCtA" identifier="org.eclipse.papyrus.gsn.profile.gsn.N-arySupportedBy" name="N-arySupportedBy" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_U-v6UBqEEem9P93mtbHCtA" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Associations::N-arySupportedBy</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_0a_ewBqEEem9P93mtbHCtA" identifier="org.eclipse.papyrus.gsn.profile.gsn.N-aryInContextOf" name="N-aryInContextOf" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_1BI4wBqEEem9P93mtbHCtA" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Associations::N-aryInContextOf</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_M7-5MByyEemzaI2hV4mSjg" identifier="org.eclipse.papyrus.gsn.ModuleContract" name="ModuleContract" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_cW5vEByyEemzaI2hV4mSjg" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::ContractModule</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_hJNfIBzAEemzaI2hV4mSjg" identifier="org.eclipse.papyrus.gsn.Module" name="Module" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_hJNfIRzAEemzaI2hV4mSjg" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::ModularExtensions::Module</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_Kg8eQB_gEemmn86NfjoHLg" identifier="org.papyrus.gsn.OptionnalContextOf" name="OptionnalInContextOf" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_TG1WAB_gEemmn86NfjoHLg" profileUri="http://papyrus/gsn">
+      <stereotypesQualifiedNames>gsn::Associations::OptionnalInContextOf</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_m7dPaHM9EeaEb_X9ewiatg" identifier="org.eclipse.papyrus.gsn.profile.gsn.goal" target="org.eclipse.papyrus.gsn.profile.gsn.Goal">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_m7dPaXM9EeaEb_X9ewiatg" stereotypeQualifiedName="gsn::Core::Goal" updateName="true">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_2QbO8AVSEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.assuption" target="_YZ65QAVSEemDvfxrsSxpKw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_BDKYwAVTEemDvfxrsSxpKw" stereotypeQualifiedName="gsn::Core::Assuption">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_LExlMArFEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.awayGoal" target="_3GG3UArEEemfu98Z5K427g">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_XACdUArFEemfu98Z5K427g" stereotypeQualifiedName="gsn::ModularExtensions::AwayGoal">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_G8a_QAVgEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.justification" target="_kjNv4AVeEemDvfxrsSxpKw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="__nOocAVhEemDvfxrsSxpKw" stereotypeQualifiedName="gsn::Core::Justification">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_az_icAVnEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.solution" target="_03Z2cAVmEemDvfxrsSxpKw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_mfNzcAVnEemDvfxrsSxpKw" stereotypeQualifiedName="gsn::Core::Solution">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_bcAksAVnEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.strategy" target="_D0dEkAVnEemDvfxrsSxpKw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_m-2VwAVnEemDvfxrsSxpKw" stereotypeQualifiedName="gsn::Core::Strategy" updateName="true">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_HqBygAVoEemDvfxrsSxpKw" identifier="org.eclipse.papyrus.gsn.profile.gsn.context" target="_0VC60AVnEemDvfxrsSxpKw">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_MapB0AVoEemDvfxrsSxpKw" stereotypeQualifiedName="gsn::Core::Context">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_HHdo0ArKEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.awaysolution" target="_-PtlAArJEemfu98Z5K427g">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_HHdo0QrKEemfu98Z5K427g" stereotypeQualifiedName="gsn::ModularExtensions::AwaySolution">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_CFx60ArOEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.awaycontext" target="_20raAArNEemfu98Z5K427g">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Kwu4wArOEemfu98Z5K427g" stereotypeQualifiedName="gsn::ModularExtensions::AwayContext">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_VfFxgArREemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.modulereference" target="_7SloYArQEemfu98Z5K427g">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_rKP2YArREemfu98Z5K427g" stereotypeQualifiedName="gsn::ModularExtensions::ModuleReference">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_7hFUYArxEemfu98Z5K427g" identifier="org.eclipse.papyrus.gsn.profile.gsn.contractModuleReference" target="_gap5oArxEemfu98Z5K427g">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_A0yCoAryEemfu98Z5K427g" stereotypeQualifiedName="gsn::ModularExtensions::ContractModuleReference">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_V48DMBnrEemXJcar-dXsPQ" identifier="org.eclipse.papyrus.gsn.profile.gsn.SupportedBy" target="_cBgKgAV_Eemzx_1-BINJ-A">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ivPnQBnrEemXJcar-dXsPQ" stereotypeQualifiedName="gsn::Associations::SupportedBy">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_F5tw8BnsEemXJcar-dXsPQ" identifier="org.eclipse.papyrus.gsn.profile.gsn.InContextOf" target="_Yvc48BnNEem06_yQdhsvYg">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_F5tw8RnsEemXJcar-dXsPQ" stereotypeQualifiedName="gsn::Associations::InContextOf">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_W3VDABp4EemWPKq2p20mUA" identifier="org.eclipse.papyrus.gsn.profile.gsn.OptionnalSupportedBy" target="_F_8PIBp4EemWPKq2p20mUA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_W3VDARp4EemWPKq2p20mUA" stereotypeQualifiedName="gsn::Associations::OptionnalSupportedBy">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_cIrxcBqEEem9P93mtbHCtA" identifier="org.eclipse.papyrus.gsn.profile.gsn.N-arySupportedBy" target="_86a-oBqDEem9P93mtbHCtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_cIrxcRqEEem9P93mtbHCtA" stereotypeQualifiedName="gsn::Associations::N-arySupportedBy">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_IetEsBqFEem9P93mtbHCtA" identifier="org.eclipse.papyrus.gsn.profile.gsn.N-aryInContextOf" target="_0a_ewBqEEem9P93mtbHCtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_IetEsRqFEem9P93mtbHCtA" stereotypeQualifiedName="gsn::Associations::N-aryInContextOf">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_rxemsByyEemzaI2hV4mSjg" identifier="org.eclipse.papyrus.gsn.modulecontract" target="_M7-5MByyEemzaI2hV4mSjg">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_yNbWcByyEemzaI2hV4mSjg" stereotypeQualifiedName="gsn::ModularExtensions::ContractModule">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_v4unkBzAEemzaI2hV4mSjg" identifier="org.eclipse.papyrus.gsn.module" target="_hJNfIBzAEemzaI2hV4mSjg">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_v4unkRzAEemzaI2hV4mSjg" stereotypeQualifiedName="gsn::ModularExtensions::Module">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lqKuUB_gEemmn86NfjoHLg" identifier="org.eclipse.papyrus.gsn.OptionnalInContextOf" target="_Kg8eQB_gEemmn86NfjoHLg">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_sc9QwB_gEemmn86NfjoHLg" stereotypeQualifiedName="gsn::Associations::OptionnalInContextOf">
+      <requiredProfiles>gsn</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

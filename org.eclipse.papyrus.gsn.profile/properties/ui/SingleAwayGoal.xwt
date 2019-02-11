@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composite xmlns="http://www.eclipse.org/xwt/presentation"
+	xmlns:j="clr-namespace:java.lang"
+	xmlns:ppe="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets"
+	xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
+	xmlns:x="http://www.eclipse.org/xwt">
+	<Composite.layout>
+		<ppel:PropertiesLayout></ppel:PropertiesLayout>
+	</Composite.layout>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout numColumns="1"></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:StringEditor input="{Binding}"></ppe:StringEditor>
+		<ppe:StringEditor input="{Binding}"
+			property="gsn:CoreElement:Identifier"></ppe:StringEditor>
+		<ppe:StringEditor input="{Binding}"
+			property="gsn:CoreElement:Statement"></ppe:StringEditor>
+		<ppe:StringEditor input="{Binding}"
+			property="gsn:CoreElement:Undeveloped"></ppe:StringEditor>
+		<ppe:StringEditor input="{Binding}"
+			property="gsn:CoreElement:Uninstantiated"></ppe:StringEditor>
+		<ppe:StringEditor
+			property="gsn:ModularExtensions:AwayGoal:ModuleIdentifierReference"
+			input="{Binding}"></ppe:StringEditor>
+	</Composite>
+</Composite>

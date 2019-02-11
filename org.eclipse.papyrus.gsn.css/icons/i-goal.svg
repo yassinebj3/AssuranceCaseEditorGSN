@@ -1,0 +1,14 @@
+<svg width="580" height="471" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="473" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#fff" stroke="#000" stroke-width="7" x="11.5" y="11" width="558" height="375" id="svg_1"/>
+  <rect fill="none" y="15" x="85" height="365.515698" width="418.000004" id="PapyrusLabel"/>
+  <path id="svg_2" d="m222.422489,457.615564l61.499997,-65.999991l61.499997,65.999991l-122.999993,0z" fill-opacity="100" stroke-opacity="100" stroke-width="7" stroke="#000" fill="#fff"/>
+ </g>
+</svg>

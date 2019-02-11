@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="GSN Documentation">
+   <topic href="html/getting_started/creating_project.html" label="Creating a GSN project">
+   </topic>
+   <topic href="html/getting_started/editing_gsn_diagram.html" label="Editing a GSN Diagram">
+   </topic>
+   <topic href="html/getting_started/patterns.html" label="Using the patterns library">
+   </topic>
+   <topic label="Associations">
+      <anchor id="associations"/>
+   </topic>
+</toc>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="ASCII"?>
+<contexts:Context xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:constraints="http://www.eclipse.org/papyrus/constraints/0.9" xmlns:contexts="http://www.eclipse.org/papyrus/properties/contexts/0.9" xmi:id="_gX2SgCDEEemRQJMp91sCSw" name="gsn">
+  <dependencies href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_69QJkKDJEeSZxfCXzZz3-w"/>
+  <tabs xmi:id="_mkUb0CDEEemRQJMp91sCSw" label="gsn" id="gsn" priority="100">
+    <sections xmi:id="_mkkTcCDEEemRQJMp91sCSw" name="Single CoreElement" sectionFile="ui/SingleCoreElement.xwt">
+      <widget href="ui/SingleCoreElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mklhkCDEEemRQJMp91sCSw" name="Multiple CoreElement" sectionFile="ui/MultipleCoreElement.xwt">
+      <widget href="ui/MultipleCoreElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mklhkSDEEemRQJMp91sCSw" name="Single OptionnalSupportedBy" sectionFile="ui/SingleOptionnalSupportedBy.xwt">
+      <widget href="ui/SingleOptionnalSupportedBy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmIoCDEEemRQJMp91sCSw" name="Multiple OptionnalSupportedBy" sectionFile="ui/MultipleOptionnalSupportedBy.xwt">
+      <widget href="ui/MultipleOptionnalSupportedBy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmIoSDEEemRQJMp91sCSw" name="Single SupportedBy" sectionFile="ui/SingleSupportedBy.xwt">
+      <widget href="ui/SingleSupportedBy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmIoiDEEemRQJMp91sCSw" name="Multiple SupportedBy" sectionFile="ui/MultipleSupportedBy.xwt">
+      <widget href="ui/MultipleSupportedBy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmIoyDEEemRQJMp91sCSw" name="Single N-arySupportedBy" sectionFile="ui/SingleN-arySupportedBy.xwt">
+      <widget href="ui/SingleN-arySupportedBy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmIpCDEEemRQJMp91sCSw" name="Multiple N-arySupportedBy" sectionFile="ui/MultipleN-arySupportedBy.xwt">
+      <widget href="ui/MultipleN-arySupportedBy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmvsCDEEemRQJMp91sCSw" name="Single InContextOf" sectionFile="ui/SingleInContextOf.xwt">
+      <widget href="ui/SingleInContextOf.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmvsSDEEemRQJMp91sCSw" name="Multiple InContextOf" sectionFile="ui/MultipleInContextOf.xwt">
+      <widget href="ui/MultipleInContextOf.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkmvsiDEEemRQJMp91sCSw" name="Single OptionnalInContextOf" sectionFile="ui/SingleOptionnalInContextOf.xwt">
+      <widget href="ui/SingleOptionnalInContextOf.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mknWwCDEEemRQJMp91sCSw" name="Multiple OptionnalInContextOf" sectionFile="ui/MultipleOptionnalInContextOf.xwt">
+      <widget href="ui/MultipleOptionnalInContextOf.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mknWwSDEEemRQJMp91sCSw" name="Single N-aryInContextOf" sectionFile="ui/SingleN-aryInContextOf.xwt">
+      <widget href="ui/SingleN-aryInContextOf.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mknWwiDEEemRQJMp91sCSw" name="Multiple N-aryInContextOf" sectionFile="ui/MultipleN-aryInContextOf.xwt">
+      <widget href="ui/MultipleN-aryInContextOf.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mknWwyDEEemRQJMp91sCSw" name="Single Solution" sectionFile="ui/SingleSolution.xwt">
+      <widget href="ui/SingleSolution.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkn90CDEEemRQJMp91sCSw" name="Multiple Solution" sectionFile="ui/MultipleSolution.xwt">
+      <widget href="ui/MultipleSolution.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkn90SDEEemRQJMp91sCSw" name="Single Strategy" sectionFile="ui/SingleStrategy.xwt">
+      <widget href="ui/SingleStrategy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkn90iDEEemRQJMp91sCSw" name="Multiple Strategy" sectionFile="ui/MultipleStrategy.xwt">
+      <widget href="ui/MultipleStrategy.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkn90yDEEemRQJMp91sCSw" name="Single Goal" sectionFile="ui/SingleGoal.xwt">
+      <widget href="ui/SingleGoal.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkok4CDEEemRQJMp91sCSw" name="Multiple Goal" sectionFile="ui/MultipleGoal.xwt">
+      <widget href="ui/MultipleGoal.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkok4SDEEemRQJMp91sCSw" name="Single Context" sectionFile="ui/SingleContext.xwt">
+      <widget href="ui/SingleContext.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkok4iDEEemRQJMp91sCSw" name="Multiple Context" sectionFile="ui/MultipleContext.xwt">
+      <widget href="ui/MultipleContext.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpL8CDEEemRQJMp91sCSw" name="Single Assuption" sectionFile="ui/SingleAssuption.xwt">
+      <widget href="ui/SingleAssuption.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpL8SDEEemRQJMp91sCSw" name="Multiple Assuption" sectionFile="ui/MultipleAssuption.xwt">
+      <widget href="ui/MultipleAssuption.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpL8iDEEemRQJMp91sCSw" name="Single Justification" sectionFile="ui/SingleJustification.xwt">
+      <widget href="ui/SingleJustification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpL8yDEEemRQJMp91sCSw" name="Multiple Justification" sectionFile="ui/MultipleJustification.xwt">
+      <widget href="ui/MultipleJustification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpzACDEEemRQJMp91sCSw" name="Single AwayGoal" sectionFile="ui/SingleAwayGoal.xwt">
+      <widget href="ui/SingleAwayGoal.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpzASDEEemRQJMp91sCSw" name="Multiple AwayGoal" sectionFile="ui/MultipleAwayGoal.xwt">
+      <widget href="ui/MultipleAwayGoal.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpzAiDEEemRQJMp91sCSw" name="Single Module" sectionFile="ui/SingleModule.xwt">
+      <widget href="ui/SingleModule.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkpzAyDEEemRQJMp91sCSw" name="Multiple Module" sectionFile="ui/MultipleModule.xwt">
+      <widget href="ui/MultipleModule.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkqaECDEEemRQJMp91sCSw" name="Single AwayContext" sectionFile="ui/SingleAwayContext.xwt">
+      <widget href="ui/SingleAwayContext.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkqaESDEEemRQJMp91sCSw" name="Multiple AwayContext" sectionFile="ui/MultipleAwayContext.xwt">
+      <widget href="ui/MultipleAwayContext.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkqaEiDEEemRQJMp91sCSw" name="Single ModuleReference" sectionFile="ui/SingleModuleReference.xwt">
+      <widget href="ui/SingleModuleReference.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkrBICDEEemRQJMp91sCSw" name="Multiple ModuleReference" sectionFile="ui/MultipleModuleReference.xwt">
+      <widget href="ui/MultipleModuleReference.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkrBISDEEemRQJMp91sCSw" name="Single ContractModule" sectionFile="ui/SingleContractModule.xwt">
+      <widget href="ui/SingleContractModule.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkrBIiDEEemRQJMp91sCSw" name="Multiple ContractModule" sectionFile="ui/MultipleContractModule.xwt">
+      <widget href="ui/MultipleContractModule.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkrBIyDEEemRQJMp91sCSw" name="Single AwaySolution" sectionFile="ui/SingleAwaySolution.xwt">
+      <widget href="ui/SingleAwaySolution.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkrBJCDEEemRQJMp91sCSw" name="Multiple AwaySolution" sectionFile="ui/MultipleAwaySolution.xwt">
+      <widget href="ui/MultipleAwaySolution.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkroMCDEEemRQJMp91sCSw" name="Single ContractModuleReference" sectionFile="ui/SingleContractModuleReference.xwt">
+      <widget href="ui/SingleContractModuleReference.xwt#/"/>
+    </sections>
+    <sections xmi:id="_mkroMSDEEemRQJMp91sCSw" name="Multiple ContractModuleReference" sectionFile="ui/MultipleContractModuleReference.xwt">
+      <widget href="ui/MultipleContractModuleReference.xwt#/"/>
+    </sections>
+  </tabs>
+  <views xmi:id="_gX2SgSDEEemRQJMp91sCSw" name="Single CoreElement" sections="_mkkTcCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TASDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SgiDEEemRQJMp91sCSw" name="isSingleCoreElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SgyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::CoreElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2ShCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple CoreElement" sections="_mklhkCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TASDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2ShSDEEemRQJMp91sCSw" name="isMultipleCoreElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2ShiDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::CoreElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2ShyDEEemRQJMp91sCSw" name="Single OptionnalSupportedBy" sections="_mklhkSDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_CDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SiCDEEemRQJMp91sCSw" name="isSingleOptionnalSupportedBy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SiSDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::OptionnalSupportedBy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SiiDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple OptionnalSupportedBy" sections="_mkmIoCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_CDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SiyDEEemRQJMp91sCSw" name="isMultipleOptionnalSupportedBy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SjCDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::OptionnalSupportedBy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SjSDEEemRQJMp91sCSw" name="Single SupportedBy" sections="_mkmIoSDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_SDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SjiDEEemRQJMp91sCSw" name="isSingleSupportedBy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SjyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::SupportedBy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SkCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple SupportedBy" sections="_mkmIoiDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_SDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SkSDEEemRQJMp91sCSw" name="isMultipleSupportedBy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SkiDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::SupportedBy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SkyDEEemRQJMp91sCSw" name="Single N-arySupportedBy" sections="_mkmIoyDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_yDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SlCDEEemRQJMp91sCSw" name="isSingleN-arySupportedBy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SlSDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::N-arySupportedBy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SliDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple N-arySupportedBy" sections="_mkmIpCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_yDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SlyDEEemRQJMp91sCSw" name="isMultipleN-arySupportedBy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SmCDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::N-arySupportedBy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SmSDEEemRQJMp91sCSw" name="Single InContextOf" sections="_mkmvsCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_iDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SmiDEEemRQJMp91sCSw" name="isSingleInContextOf">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SmyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::InContextOf"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SnCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple InContextOf" sections="_mkmvsSDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S_iDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SnSDEEemRQJMp91sCSw" name="isMultipleInContextOf">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SniDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::InContextOf"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SnyDEEemRQJMp91sCSw" name="Single OptionnalInContextOf" sections="_mkmvsiDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S-yDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SoCDEEemRQJMp91sCSw" name="isSingleOptionnalInContextOf">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SoSDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::OptionnalInContextOf"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SoiDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple OptionnalInContextOf" sections="_mknWwCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2S-yDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SoyDEEemRQJMp91sCSw" name="isMultipleOptionnalInContextOf">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SpCDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::OptionnalInContextOf"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SpSDEEemRQJMp91sCSw" name="Single N-aryInContextOf" sections="_mknWwSDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TACDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SpiDEEemRQJMp91sCSw" name="isSingleN-aryInContextOf">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SpyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::N-aryInContextOf"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SqCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple N-aryInContextOf" sections="_mknWwiDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TACDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SqSDEEemRQJMp91sCSw" name="isMultipleN-aryInContextOf">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SqiDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Associations::N-aryInContextOf"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SqyDEEemRQJMp91sCSw" name="Single Solution" sections="_mknWwyDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TByDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SrCDEEemRQJMp91sCSw" name="isSingleSolution">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SrSDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Solution"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SriDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Solution" sections="_mkn90CDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TByDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SryDEEemRQJMp91sCSw" name="isMultipleSolution">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SsCDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Solution"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SsSDEEemRQJMp91sCSw" name="Single Strategy" sections="_mkn90SDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SsiDEEemRQJMp91sCSw" name="isSingleStrategy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SsyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Strategy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2StCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Strategy" sections="_mkn90iDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2StSDEEemRQJMp91sCSw" name="isMultipleStrategy">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2StiDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Strategy"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2StyDEEemRQJMp91sCSw" name="Single Goal" sections="_mkn90yDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCSDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SuCDEEemRQJMp91sCSw" name="isSingleGoal">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SuSDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Goal"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SuiDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Goal" sections="_mkok4CDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCSDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SuyDEEemRQJMp91sCSw" name="isMultipleGoal">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SvCDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Goal"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SvSDEEemRQJMp91sCSw" name="Single Context" sections="_mkok4SDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCyDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SviDEEemRQJMp91sCSw" name="isSingleContext">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SvyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Context"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SwCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Context" sections="_mkok4iDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCyDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SwSDEEemRQJMp91sCSw" name="isMultipleContext">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SwiDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Context"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SwyDEEemRQJMp91sCSw" name="Single Assuption" sections="_mkpL8CDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SxCDEEemRQJMp91sCSw" name="isSingleAssuption">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SxSDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Assuption"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SxiDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Assuption" sections="_mkpL8SDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TCCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SxyDEEemRQJMp91sCSw" name="isMultipleAssuption">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SyCDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Assuption"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SySDEEemRQJMp91sCSw" name="Single Justification" sections="_mkpL8iDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TDCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SyiDEEemRQJMp91sCSw" name="isSingleJustification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SyyDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Justification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SzCDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Justification" sections="_mkpL8yDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TDCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2SzSDEEemRQJMp91sCSw" name="isMultipleJustification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2SziDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::Core::Justification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2SzyDEEemRQJMp91sCSw" name="Single AwayGoal" sections="_mkpzACDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TDiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S0CDEEemRQJMp91sCSw" name="isSingleAwayGoal">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S0SDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::AwayGoal"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S0iDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple AwayGoal" sections="_mkpzASDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TDiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S0yDEEemRQJMp91sCSw" name="isMultipleAwayGoal">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S1CDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::AwayGoal"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S1SDEEemRQJMp91sCSw" name="Single Module" sections="_mkpzAiDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TFCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S1iDEEemRQJMp91sCSw" name="isSingleModule">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S1yDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::Module"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S2CDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple Module" sections="_mkpzAyDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TFCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S2SDEEemRQJMp91sCSw" name="isMultipleModule">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S2iDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::Module"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S2yDEEemRQJMp91sCSw" name="Single AwayContext" sections="_mkqaECDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TFiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S3CDEEemRQJMp91sCSw" name="isSingleAwayContext">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S3SDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::AwayContext"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S3iDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple AwayContext" sections="_mkqaESDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TFiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S3yDEEemRQJMp91sCSw" name="isMultipleAwayContext">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S4CDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::AwayContext"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S4SDEEemRQJMp91sCSw" name="Single ModuleReference" sections="_mkqaEiDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TGCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S4iDEEemRQJMp91sCSw" name="isSingleModuleReference">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S4yDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::ModuleReference"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S5CDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple ModuleReference" sections="_mkrBICDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TGCDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S5SDEEemRQJMp91sCSw" name="isMultipleModuleReference">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S5iDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::ModuleReference"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S5yDEEemRQJMp91sCSw" name="Single ContractModule" sections="_mkrBISDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TESDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S6CDEEemRQJMp91sCSw" name="isSingleContractModule">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S6SDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::ContractModule"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S6iDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple ContractModule" sections="_mkrBIiDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TESDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S6yDEEemRQJMp91sCSw" name="isMultipleContractModule">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S7CDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::ContractModule"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S7SDEEemRQJMp91sCSw" name="Single AwaySolution" sections="_mkrBIyDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TEiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S7iDEEemRQJMp91sCSw" name="isSingleAwaySolution">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S7yDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::AwaySolution"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S8CDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple AwaySolution" sections="_mkrBJCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TEiDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S8SDEEemRQJMp91sCSw" name="isMultipleAwaySolution">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S8iDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::AwaySolution"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S8yDEEemRQJMp91sCSw" name="Single ContractModuleReference" sections="_mkroMCDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TECDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S9CDEEemRQJMp91sCSw" name="isSingleContractModuleReference">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S9SDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::ContractModuleReference"/>
+    </constraints>
+  </views>
+  <views xmi:id="_gX2S9iDEEemRQJMp91sCSw" elementMultiplicity="-1" name="Multiple ContractModuleReference" sections="_mkroMSDEEemRQJMp91sCSw" automaticContext="true" datacontexts="_gX2TECDEEemRQJMp91sCSw">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_gX2S9yDEEemRQJMp91sCSw" name="isMultipleContractModuleReference">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_gX2S-CDEEemRQJMp91sCSw" name="stereotypeName" value="gsn::ModularExtensions::ContractModuleReference"/>
+    </constraints>
+  </views>
+  <dataContexts xmi:id="_gX2S-SDEEemRQJMp91sCSw" name="gsn">
+    <elements xsi:type="contexts:DataContextPackage" xmi:id="_gX2S-iDEEemRQJMp91sCSw" name="Associations">
+      <elements xmi:id="_gX2S-yDEEemRQJMp91sCSw" name="OptionnalInContextOf">
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xu6DJEeSZxfCXzZz3-w"/>
+      </elements>
+      <elements xmi:id="_gX2S_CDEEemRQJMp91sCSw" name="OptionnalSupportedBy">
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xu6DJEeSZxfCXzZz3-w"/>
+      </elements>
+      <elements xmi:id="_gX2S_SDEEemRQJMp91sCSw" name="SupportedBy">
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xu6DJEeSZxfCXzZz3-w"/>
+      </elements>
+      <elements xmi:id="_gX2S_iDEEemRQJMp91sCSw" name="InContextOf">
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xu6DJEeSZxfCXzZz3-w"/>
+      </elements>
+      <elements xmi:id="_gX2S_yDEEemRQJMp91sCSw" name="N-arySupportedBy">
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xu6DJEeSZxfCXzZz3-w"/>
+      </elements>
+      <elements xmi:id="_gX2TACDEEemRQJMp91sCSw" name="N-aryInContextOf">
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xu6DJEeSZxfCXzZz3-w"/>
+      </elements>
+    </elements>
+    <elements xmi:id="_gX2TASDEEemRQJMp91sCSw" name="CoreElement">
+      <properties xmi:id="_gX2TAiDEEemRQJMp91sCSw" name="Identifier"/>
+      <properties xmi:id="_gX2TAyDEEemRQJMp91sCSw" name="Statement"/>
+      <properties xmi:id="_gX2TBCDEEemRQJMp91sCSw" name="Undeveloped"/>
+      <properties xmi:id="_gX2TBSDEEemRQJMp91sCSw" name="Uninstantiated"/>
+      <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690yXqDJEeSZxfCXzZz3-w"/>
+    </elements>
+    <elements xsi:type="contexts:DataContextPackage" xmi:id="_gX2TBiDEEemRQJMp91sCSw" name="Core">
+      <elements xmi:id="_gX2TByDEEemRQJMp91sCSw" name="Solution" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TCCDEEemRQJMp91sCSw" name="Assuption" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TCSDEEemRQJMp91sCSw" name="Goal" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TCiDEEemRQJMp91sCSw" name="Strategy" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TCyDEEemRQJMp91sCSw" name="Context" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TDCDEEemRQJMp91sCSw" name="Justification" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+    </elements>
+    <elements xsi:type="contexts:DataContextPackage" xmi:id="_gX2TDSDEEemRQJMp91sCSw" name="ModularExtensions">
+      <elements xmi:id="_gX2TDiDEEemRQJMp91sCSw" name="AwayGoal" supertypes="_gX2TASDEEemRQJMp91sCSw">
+        <properties xmi:id="_gX2TDyDEEemRQJMp91sCSw" name="ModuleIdentifierReference"/>
+      </elements>
+      <elements xmi:id="_gX2TECDEEemRQJMp91sCSw" name="ContractModuleReference" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TESDEEemRQJMp91sCSw" name="ContractModule" supertypes="_gX2TFCDEEemRQJMp91sCSw"/>
+      <elements xmi:id="_gX2TEiDEEemRQJMp91sCSw" name="AwaySolution" supertypes="_gX2TASDEEemRQJMp91sCSw">
+        <properties xmi:id="_gX2TEyDEEemRQJMp91sCSw" name="ModuleIdentifierReference"/>
+      </elements>
+      <elements xmi:id="_gX2TFCDEEemRQJMp91sCSw" name="Module">
+        <properties xmi:id="_gX2TFSDEEemRQJMp91sCSw" name="ModuleIdentifier"/>
+        <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xiaDJEeSZxfCXzZz3-w"/>
+      </elements>
+      <elements xmi:id="_gX2TFiDEEemRQJMp91sCSw" name="AwayContext" supertypes="_gX2TASDEEemRQJMp91sCSw">
+        <properties xmi:id="_gX2TFyDEEemRQJMp91sCSw" name="ModuleIdentifierReference"/>
+      </elements>
+      <elements xmi:id="_gX2TGCDEEemRQJMp91sCSw" name="ModuleReference" supertypes="_gX2TASDEEemRQJMp91sCSw"/>
+    </elements>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.2"/>
+  </dataContexts>
+</contexts:Context>

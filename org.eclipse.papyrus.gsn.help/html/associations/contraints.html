@@ -1,0 +1,49 @@
+<h1>Constraints</h1>
+
+<p>
+	Not every combination of source type, association type and target type is valid.
+	Every ill-formed association will be deleted upon creation. Similarly, if the user modifies the source or
+	target of an association in such a way that the association becomes invalid, the modification will be ignored and
+	the association will keep its former source and target.<br/><br/>
+	
+	This section of the GSN plug-in manual describes every valid combination of source type, association type and 
+	target type. 
+</p>
+
+<h3>InContextOf:</h3>
+<ul>
+	<li>Goal -> Context</li>
+	<li>Goal -> Assumption</li>
+	<li>Goal -> Justification</li>
+	<li>Goal -> AwayGoal</li>
+	<li>Goal -> AwayContext</li>
+	<li>Goal -> Module</li>
+	<li>Strategy -> Context</li>
+	<li>Strategy -> Assumption</li>
+	<li>Strategy -> Justification</li>
+	<li>Strategy -> AwayGoal</li>
+	<li>Strategy -> AwayContext</li>
+	<li>Strategy -> Module</li>
+</ul>
+<p>The same combinations are valid with associations of type
+	OptionnalInContextOf and N-aryInContextOf.<br/>
+</p>
+
+<h3>SupportedBy:</h3>
+<ul>
+	<li>Goal -> Goal</li>
+	<li>Goal -> Strategy</li>
+	<li>Goal -> Solution</li>
+	<li>Goal -> AwayGoal</li>
+	<li>Goal -> AwaySolution</li>
+	<li>Goal -> Module</li>
+	<li>Goal -> ContractModule</li>
+	<li>Strategy -> Goal</li>
+	<li>Strategy -> AwayGoal</li>
+	<li>Strategy -> AwaySolution</li>
+	<li>Strategy -> Module</li>
+	<li>Strategy -> ContractModule</li>
+</ul>
+<p>The same combinations are valid with associations of type
+	OptionnalSupportedBy and N-arySupportedBy.<br/>
+</p>
